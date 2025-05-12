@@ -40,7 +40,7 @@ main:
 
 	; setup stack
 	mov ss, ax
-	mov sp, 0x7C00 			; stack grows downward from where we are loaded in memory
+	mov sp, 0x7C00 			        ; stack grows downward from where we are loaded in memory
 
 	; print message
 	mov si, msg_hello
